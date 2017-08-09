@@ -2,7 +2,7 @@
 ## M-x help-with-tutorial
 （根据帮助文档梳理的一份关键词索引）
 
-CONTROL 键（有时候以 CTRL 或 CTL 来标示）
+CONTROL 键（有时候以 CTRL 或 CTL 来标示） 
 META 键盘（有时候用 EDIT 或 ALT 来标示）
 退出 Emacs
 退出一个正在运行中的命令
