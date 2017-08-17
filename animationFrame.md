@@ -2,7 +2,7 @@
 ## 用递归的方式写动画
 > <b>Note</b>: Your callback routine must itself call requestAnimationFrame() if you want to animate another frame at the next repaint.
 
-可以预见有很多渐变操作，实质就是某函数的递归调用：每 frame 要 repaint 的样式都由递归函数计算出来，同时 requestAnimationFrame 返回的 request id 能传进 cancelAnimationFrame 来取消动画  
+可以预见有很多渐变操作，实质就是~~某函数的递归调用~~不断计算每一 frame 的样式：每 frame 要 repaint 的样式都由~~递归~~函数计算出来，同时 requestAnimationFrame 返回的 request id 能传进 cancelAnimationFrame 来取消动画  
 ### DEMO
 元素宽度从 0% 到 100%，用时 3 秒（变化不够顺滑）  
 ```javascript
