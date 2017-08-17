@@ -1,5 +1,5 @@
 [toc]
-## 用递归的方式写动画
+## 用~~递归的~~不断绑定回调的方式写动画
 > <b>Note</b>: Your callback routine must itself call requestAnimationFrame() if you want to animate another frame at the next repaint.
 
 可以预见有很多渐变操作，实质就是~~某函数的递归调用~~不断计算每一 frame 的样式：每 frame 要 repaint 的样式都由~~递归~~函数计算出来，同时 requestAnimationFrame 返回的 request id 能传进 cancelAnimationFrame 来取消动画  
