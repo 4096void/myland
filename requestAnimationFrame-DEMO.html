@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>requestAnimationFrame-DEMO</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <img class="eggy" src="eggy.png" alt="">
+  <script>
+    function largen(elm) {
+      var begin = null;
+      var action = function(t) {
+        if (!begin) begin = t;
+        var p = (t - begin) / 3000 * 100;
+        if (p <= 100) {
+          elm.style.width = p + '%';
+          window.requestAnimationFrame(action);
+        }
+      };
+      window.requestAnimationFrame(action);
+    }   
+
+    function flash(elm) {
+      elm.style.width = '100px';
+      elm.style.position = 'absolute';
+      var action = function() {        
+        var l = (Math.random() * 500) + 'px';
+        var t = (Math.random() * 500) + 'px';
+        elm.style.left = l;
+        elm.style.top = t;
+        if (!(240 <= l && l <= 260 && 240 <= t && t <= 260)) {
+          window.requestAnimationFrame(action);
+        }
+      };
+      window.requestAnimationFrame(action);
+    }
+    flash(document.querySelector('.eggy'));
+  </script>
+</body>
+
+</html>
