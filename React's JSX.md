@@ -1,6 +1,6 @@
 > 原文：https://medium.freecodecamp.org/react-s-jsx-the-other-side-of-the-coin-2ace7ab62b98
 
-# 硬币的反面：JSX
+# 硬币反面：JSX
 React 刚发布的时候，很多人看了一眼然后有点接受不了。JavaScript 里的那些尖括号是干啥用的？！淦，说好的分离呢？Facebook 到底有没有从社区学到教训？
 
 
