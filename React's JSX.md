@@ -27,15 +27,19 @@ React 刚发布的时候，很多人看了一眼然后有点接受不了。JavaS
 
 我们像这样写标签：
 
-`<a class="hide">click to hide me</a>`
+```html
+<a class="hide">click to hide me</a>
+```
 
 像这样写脚本：
 
-`$('.hide').click(function() {$(this).hide();})`
+```javascript
+$('.hide').click(function() {$(this).hide();})
+```
 
 
 
-\#这样就可以下班了？并没有。
+这样就可以下班了？并没有。
 
 
 
@@ -57,17 +61,19 @@ React 刚发布的时候，很多人看了一眼然后有点接受不了。JavaS
 
 每个库或框架都有它自己用来实现双向绑定的方式，但本质上做的。都是同一件事情。先看看下面这几个来自比较流行的框架里的遍历数组的例子：
 
-`// Angular`
+```javascript
+// Angular
 
-`<div ng-repeat="user in users">`
+<div ng-repeat="user in users">
 
-`// Ember`
+// Ember
 
-`{{#each user in users}}`
+{{#each user in users}}
 
-`// Knockout`
+// Knockout
 
-`data-bind="foreach: users`
+data-bind="foreach: users
+```
 
 
 
@@ -105,7 +111,7 @@ Angular，Ember 和 Knockout 把 JavaScript 放到 HTML 里，React 把 HTML 放
 
 
 
-JSX 让这种必要的反馈信息成为了现实！这个举措的重要性怎么强调也不过分。快速的反馈大幅提升生产力。像我在 [Clean Code](https://www.pluralsight.com/courses/writing-clean-code-humans) 课上讲到的：越好的工程办法，报错得越快。
+JSX 让这种必要的反馈信息成为了现实！这个举措的重要性怎么强调也不过分。快速的反馈大幅提升生产力。像我在 [Clean Code](https://www.pluralsight.com/courses/writing-clean-code-humans) 课上讲到的：越好的解决方案，越快报错。
 
 
 
