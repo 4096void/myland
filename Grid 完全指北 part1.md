@@ -1,8 +1,7 @@
-[toc]
 ## Grid 完全指北 part1
 > 建议：grid 里面有相当大一部分功能与 flexbox 类似，先看 flexbox 再看 grid，效果更佳
 
-*原文：https://css-tricks.com/snippets/css/complete-guide-grid/*
+*原文：[https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/)*
 
 ### 介绍
 
@@ -10,7 +9,7 @@ CSS grid 可以说是 CSS 里「最强大的布局方案」。flexbox 只能满�
 
 原文引用 [Chris House's guide](http://chris.house/blog/a-complete-guide-css-grid-layout/)（持续更新中~）
 
-CSS grid 是一套「基于二维网格」的布局系统，完全改变了「基于网格的用户界面」的布局方式。
+CSS grid 「基于二维网格」进行布局，提供了一套全新的「基于网格的用户界面」的布局方式。
 
 CSS grid 之前，网页布局主要用 `table` `float` `position` `inline-block` 来实现，但从本质上说，它们都是 hacks（个人理解为：凡与人天生的布局直觉违背），还遗漏了不少「重要的布局痛点」（比如：垂直居中）。
 
@@ -46,8 +45,8 @@ IE 10/11 支持 CSS grid，但语法已过时，Edge 将会兼容最新 CSS grid
 
 [戳我看 Caniuse 数据](https://caniuse.com/#feat=css-grid)
 
-除微软以外的大多数浏览器厂商，在 CSS grid 规范成熟之前，都已尽量抑制自己在 CSS grid 具体实现（指具体语法）上++为所欲为的欲望++。
+除微软以外的大多数浏览器厂商，在 CSS grid 规范成熟之前，都已尽量抑制自己在 CSS grid 具体实现（指具体语法）上**为所欲为的欲望**。
 
 这是一件好事，再也不用学多套语法了。
 
-那么从现在开始「入门到上线」吧！（part2 待填......）
+那么从现在开始「入门到上线」吧！（part2 待填👷......）
