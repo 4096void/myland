@@ -1,4 +1,6 @@
 [toc]
+## 用法
+`control + r` 输入以下标题，跳到对应的位置即可练习
 ## M-x help-with-tutorial
 （根据帮助文档梳理的一份关键词索引）
 
